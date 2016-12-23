@@ -12,14 +12,14 @@ def bubbleSort(List):
                 List[j], List[j + 1] = List[j + 1], List[j]
     return List
 
-A = [1, 3, 2, 10, 5, 8, 6, 7, 9]
+A = [1, -3, 2, -10, 5, 8, 6, 7, 9]
 B = ['f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b',
      'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b',
      'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b',
      'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a','f', 'c', 'e', 'd', 'b', 'a', '1', '3', '2', '5', '8',
      '6', '7', '9']
 
-print(bubbleSort(B))
+print(bubbleSort(A))
 
 end_time = time.time()
 print(end_time-begin_time)
